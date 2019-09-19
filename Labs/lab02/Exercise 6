@@ -1,0 +1,9 @@
+
+OUTPUT
+BEFORE: A=[1, 2] B=[3, 4]
+AFTER: A=[3, 4] B=[1, 2]
+
+Swap method switches values of A and B so that A becomes B and B becomes A. 
+It does this by swapping the pointers of each array. 
+The pointer of A becomes the pointer of B. 
+The pointer of B becomes the pointer of A. 

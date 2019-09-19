@@ -1,0 +1,9 @@
+
+OUTPUT
+BEFORE: A=[1, 2] B=[3, 4]
+AFTER: A=[3, 4] B=[1, 2]
+
+Swap method switches values of A and B so that A becomes B and B becomes A. 
+It does this by taking the value of each individual element in A and assigning them to a temporay variable. 
+The value of each element in B is then assigned to A. 
+The value of the temporary variable is then assigned to B one element at a time. 
