@@ -1,0 +1,18 @@
+SearchComparison.txt
+
+arraySize = 10
+simpleSearch = 10
+binarySearch = 4
+
+arraySize = 100
+simpleSearch = 100
+binarySearch = 7
+
+arraySize = 1000
+simpleSearch = 1000
+binarySearch = 10
+
+arraySize = 10000
+simpleSearch = 10000
+binarySearch = 13
+
