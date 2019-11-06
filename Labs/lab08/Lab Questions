@@ -1,0 +1,34 @@
+Question 3: 
+10 doublings 
+logn
+
+Question 7: 
+
+Sorted linked list:
+Insert: O(n) 
+Search: O(n)
+
+Unsorted linked list:
+Insert: O(1)
+Search: O(n)
+
+Time complexity for searching is the same whether the list is sorted or unsorted, while the time complexity for insert is more efficient if the list is not sorted.
+
+Question 9:
+
+Sorted:
+Insert: O(1)
+Search: O(logn)
+
+Unsorted:
+Insert: O(1)
+Search: O(n)
+
+Question 13:
+n! is worse than a^n, for any a.
+
+If a = 2 and n = 5:
+2^5 = 32
+5! = 120
+
+Even for a relatively small number such as 5, factorial growth quickly outpaces exponential growth. Factorial will outpace exponential at a larger n if a is larger.  
