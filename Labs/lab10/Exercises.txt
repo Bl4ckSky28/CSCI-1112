@@ -1,0 +1,57 @@
+Exercise 1
+
+Step 1: move disk 0 from tower 0 to tower 1
+Step 2: move disk 1 from tower 0 to tower 2
+Step 3: move disk 0 from tower 1 to tower 2
+Step 4: move disk 2 from tower 0 to tower 1
+Step 5: move disk 0 from tower 2 to tower 0
+Step 6: move disk 1 from tower 2 to tower 1
+Step 7: move disk 0 from tower 0 to tower 1
+
+
+Exercise 2
+
+3-Disk solution: 
+=> Move disk #0 from tower 0 to tower 1
+=> Move disk #1 from tower 0 to tower 2
+=> Move disk #0 from tower 1 to tower 2
+=> Move disk #2 from tower 0 to tower 1
+=> Move disk #0 from tower 2 to tower 0
+=> Move disk #1 from tower 2 to tower 1
+=> Move disk #0 from tower 0 to tower 1
+4-Disk solution: 
+=> Move disk #0 from tower 0 to tower 2
+=> Move disk #1 from tower 0 to tower 1
+=> Move disk #0 from tower 2 to tower 1
+=> Move disk #2 from tower 0 to tower 2
+=> Move disk #0 from tower 1 to tower 0
+=> Move disk #1 from tower 1 to tower 2
+=> Move disk #0 from tower 0 to tower 2
+=> Move disk #3 from tower 0 to tower 1
+=> Move disk #0 from tower 2 to tower 1
+=> Move disk #1 from tower 2 to tower 0
+=> Move disk #0 from tower 1 to tower 0
+=> Move disk #2 from tower 2 to tower 1
+=> Move disk #0 from tower 0 to tower 2
+=> Move disk #1 from tower 0 to tower 1
+=> Move disk #0 from tower 2 to tower 1
+
+
+Exercise 4
+
+Moves for N disks is 2^N - 1, which is an exponential algorithm 
+
+Exercise 7
+
+Recursion with backtracking
+
+Exercise 3
+
+Queue operations are used in the if statements. They are isEmpty(), size(), remove(), and add().
+
+Random queue chooses a queue randomly and shortest queue chooses the shortest queue before joining. 
+
+For random queue, average wait time increases as time steps increases. Also, the number left in the system increases. This is because the server1 rate is quicker and the server2 rate is slower and queues are not being prioritized. Shortest queue however, remains efficient. 
+
+For cases where service rates are very different, it might be better to join the longest queue rather than the shortest queue. That way longer queues can be given to a faster service rate. 
+
